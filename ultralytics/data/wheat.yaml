@@ -1,0 +1,9 @@
+train: D:\YOLO11\ultralytics-main\data\images\train\
+val: D:\YOLO11\ultralytics-main\data\images\val\
+test: D:\YOLO11\ultralytics-main\data\images\test\
+
+nc: 8 # 填写类别数
+
+names: [bacterial_spot,early_blight,healthy,late_blight,leaf_mold,septoria_spot,target_spot,mosaic_virus]  # 要和voc_label.py中的类别数目顺序一模一样
+
+# train,val,test的路径根据自己情况而定
